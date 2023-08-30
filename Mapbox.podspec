@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 	s.license = { :type => "MIT", :file => "LICENSE" }
 	s.author = { "Chaos" => "secret@topsecret.network" }
 	s.homepage = "https://github.com/Topsecret-network/maplibre-gl-native-distribution.git"
-	s.source = { :http => "https://github.com/maplibre/maplibre-native/releases/download/ios-v5.13.0/Mapbox-5.13.0.zip" }
+	s.source = { :http => "https://github.com/Topsecret-network/maplibre-gl-native-distribution.git" }
 	s.vendored_frameworks = "Mapbox.xcframework"
 	s.swift_version = '4.2'
 end
